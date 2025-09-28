@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Layer3 autoref
 // @namespace    http://tampermonkey.net/
-// @version      3.1.4o
+// @version      3.1.4q
 // @description  Multitools script for app.layer3.xyz: referral + multichain transaction
 // @author       Yun
 // @match        https://app.layer3.xyz/*
@@ -34,6 +34,7 @@
         plume: { id: 98866, address: "0x836CaF2409D91dF0bdA01BC9F3cEC524ba1c571D", color: "#F97316", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         polygon: { id: 137, address: "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE", color: "#7C3AED", value: "0x0", data: "0x", gas: "0x927c0" }, //li.fi
         rari: { id: 1380012617, address: "0x00000000AA467EbA42a3d604B3d74d63B2b6C6Cb", color: "#A855F7", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
+        sei: { id: 1329, address: "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE", color: "#FF2D55", value: "0x0", data: "0x", gas: "0x927c0" }, //li.fi
         soneium: { id: 1868, address: "0x99067E1C68f3a474f72cedF885f9f1fF7F0AAF5e", color: "#1D4ED8", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         sonic: { id: 146, address: "0x9D05eD9C0258ce034c6788944841Fe5825eDa0c4", color: "#374151", value: "0x0", data: "0x", gas: "0x927c0" }, // bungee
         superposition: { id: 55244, address: "0xF3334049A3ce7e890bd4f8C6a0FBC70e38fd3746", color: "#14B8A6", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
@@ -51,6 +52,7 @@
         baserelay: { id: 8453, address: "0xa5F565650890fBA1824Ee0F21EbBbF660a179934", color: "#0052FF", value: "0x0", data: "0x", gas: "0x927c0" }, //bungee
         gdollarfuse: { id: 122, address: "0xd253A5203817225e9768C05E5996d642fb96bA86", color: "#2ECC71", value: "0x0", data: "0x4e71d92d", gas: "0x927c0" }, // claim G dollar fuse
         gdollarcelo: { id: 42220, address: "0x43d72Ff17701B2DA814620735C39C620Ce0ea4A1", color: "#2ECC71", value: "0x0", data: "0x4e71d92d", gas: "0x927c0" }, // claim G dollar celo
+        lineaspin: { id: 59144, address: "0xDb3a3929269281F157A58D91289185F21E30A1e0", color: "#1F2937", value: "0x0", data: "0x", gas: "0x927c0" }, //only smartcontract
 
         //add personalize here (will be erase on update)
         //customize1 { id: 7777777, address: "0xDC3D8318Fbaec2de49281843f5bba22e78338146", color: "#FF5733", value: "0x0", data: "0x632a9a52", gas: "0x927c0" }, //Example : Vote on rubyscore on zora
@@ -96,15 +98,6 @@
         custphar_gm: { id: 688688, address: "0x59c27c39A126a9B5eCADdd460C230C857e1Deb35", color: "#406061", value: "0x1a6016b2d000", data: "0x5011b71c", gas: "0x927c0" },
         custphar_gm_contract: { id: 688688, address: "0x178f55FaA0845Ae2e6348d53B9Ff3E869916b939", color: "#406061", value: "0x1fd512913000", data: "0x775c300c", gas: "0x927c0" },
 
-        // camp
-        // https://summitx.finance/swap 0.01 CAMP to WCAMP
-        custcamp_wcamp: { id: 123420001114, address: "0x1aE9c40eCd2DD6ad5858E5430A556d7aff28A44b", color: "#2BA9B0", value: "0x2386f26fc10000", data: "0xd0e30db0", gas: "0x927c0" },
-        // GM
-        custcamp_gm: { id: 123420001114, address: "0x59c27c39A126a9B5eCADdd460C230C857e1Deb35", color: "#2BA9B0", value: "0x5af3107a4000", data: "0x5011b71c", gas: "0x927c0" },
-        custcamp_gm_contract: { id: 123420001114, address: "0xb004906eaeDe59CfcD041e2bdc63eae8BDBDD02d", color: "#2BA9B0", value: "0x1fd512913000", data: "0x775c300c", gas: "0x927c0" },        
-        // Chainbase
-        custchainbase_gm: { id: 2233, address: "0x016ef0F56D7344d0E55f6BC2A20618E02DAE8BE0", color: "#2B0900", value: "0x5af3107a4000", data: "0x5011b71c", gas: "0x927c0" },
-
         // Monad
         custmonad_uniswap_wmon_01: { id: 10143, address: "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701", color: "#9B59B6", value: "0x16345785d8a0000", data: "0xd0e30db0", gas: "0x927c0" },
         // stake 0.1 MON to glacierfi.com
@@ -118,17 +111,26 @@
         custmonad_swmonad: { id: 10143, address: "0xaf38734983a68eDFA4C1d6DB403dfa28bbf4009a", color: "#9B59B6", value: "0x16345785d8a0000", data: "0xd0e30db0", gas: "0x927c0" },
         // madness
         //   stake get sMon reward
-        custmonad_mad_smon: { id: 10143, address: "0x00f5A0c9D8C2ad118D5D6b9c3D263b06547BA432", color: "#9B59B6", value: "0x0", data: "0xb6b55f250000000000000000000000000000000000000000000000000000000000000000", gas: "0x927c0" },
+        // custmonad_mad_smon: { id: 10143, address: "0x00f5A0c9D8C2ad118D5D6b9c3D263b06547BA432", color: "#9B59B6", value: "0x0", data: "0xb6b55f250000000000000000000000000000000000000000000000000000000000000000", gas: "0x927c0" },
         //   stake get DAK reward
-        custmonad_mad_dak: { id: 10143, address: "0xF931E335a4b6E31CeB3409884E67aFe7d041421f", color: "#9B59B6", value: "0x0", data: "0xb6b55f250000000000000000000000000000000000000000000000000000000000000000", gas: "0x927c0" },
+        // custmonad_mad_dak: { id: 10143, address: "0xF931E335a4b6E31CeB3409884E67aFe7d041421f", color: "#9B59B6", value: "0x0", data: "0xb6b55f250000000000000000000000000000000000000000000000000000000000000000", gas: "0x927c0" },
         //   stake get Yaki reward
-        custmonad_mad_yaki: { id: 10143, address: "0xBa2f78144Bd039443ca980d7687e23add05d3aF0", color: "#9B59B6", value: "0x0", data: "0xb6b55f250000000000000000000000000000000000000000000000000000000000000000", gas: "0x927c0" },
+        // custmonad_mad_yaki: { id: 10143, address: "0xBa2f78144Bd039443ca980d7687e23add05d3aF0", color: "#9B59B6", value: "0x0", data: "0xb6b55f250000000000000000000000000000000000000000000000000000000000000000", gas: "0x927c0" },
         // GM
         custmonad_gm: { id: 10143, address: "0x363cC75a89aE5673b427a1Fa98AFc48FfDE7Ba43", color: "#9B59B6", value: "0x6a94d74f430000", data: "0x5011b71c", gas: "0x927c0" },
         custmonad_gm_contract: { id: 10143, address: "0x0fEa1dE3f1dfDAa0E0CB848aa85625Ce2433689B", color: "#9B59B6", value: "0x8e1bc9bf040000", data: "0x775c300c", gas: "0x427c0" },
         // "gas": "0x2f1e7",
         // "gasPrice": "0xe87547000",
        
+        // camp
+        // https://summitx.finance/swap 0.01 CAMP to WCAMP
+        custcamp_wcamp: { id: 123420001114, address: "0x1aE9c40eCd2DD6ad5858E5430A556d7aff28A44b", color: "#2BA9B0", value: "0x2386f26fc10000", data: "0xd0e30db0", gas: "0x927c0" },
+        // GM
+        custcamp_gm: { id: 123420001114, address: "0x59c27c39A126a9B5eCADdd460C230C857e1Deb35", color: "#2BA9B0", value: "0x5af3107a4000", data: "0x5011b71c", gas: "0x927c0" },
+        custcamp_gm_contract: { id: 123420001114, address: "0xb004906eaeDe59CfcD041e2bdc63eae8BDBDD02d", color: "#2BA9B0", value: "0x1fd512913000", data: "0x775c300c", gas: "0x927c0" },        
+        // Chainbase
+        custchainbase_gm: { id: 2233, address: "0x016ef0F56D7344d0E55f6BC2A20618E02DAE8BE0", color: "#2B0900", value: "0x5af3107a4000", data: "0x5011b71c", gas: "0x927c0" },
+
         //
         // custmonad_mad_swapmon_usdc: { id: 10143, address: "0x64Aff7245EbdAAECAf266852139c67E4D8DBa4de", color: "#9B59B6", value: "0x16345785d8a0000", data: "0x7ff36ab500000000000000000000000000000000000000000000000000000000000ca9570000000000000000000000000000000000000000000000000000000000000080000000000000000000000000045c80311942f3d5e37b6c6991358a8bc3dcdbac0000000000000000000000000000000000000000000000000000000068069f500000000000000000000000000000000000000000000000000000000000000002000000000000000000000000760afe86e5de5fa0ee542fc7b7b713e1c5425701000000000000000000000000f817257fed379853cde0fa4f97ab987181b1e5ea", gas: "0x927c0" },
         // custmonad_mad_liqmon_usdc: { id: 10143, address: "0x64Aff7245EbdAAECAf266852139c67E4D8DBa4de", color: "#9B59B6", value: "0x16345785d8a0000", data: "0xf305d719000000000000000000000000f817257fed379853cde0fa4f97ab987181b1e5ea00000000000000000000000000000000000000000000000000000000000cba7400000000000000000000000000000000000000000000000000000000000caa2900000000000000000000000000000000000000000000000001617eb90b26c000000000000000000000000000045c80311942f3d5e37b6c6991358a8bc3dcdbac0000000000000000000000000000000000000000000000000000000068069ffc", gas: "0x927c0" },
