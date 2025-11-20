@@ -43,14 +43,15 @@
         unichain: { id: 130, address: "0x198d69c8d8422D182EbbFEC9C35A31E003BcaD9a", color: "#D946EF", value: "0x0", data: "0x", gas: "0x927c0" }, //bungee
         worldchain: { id: 480, address: "0xa06e1351E2fD2D45b5D35633ca7eCF328684a109", color: "#2D3748", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         zora: { id: 7777777, address: "0xa5F565650890fBA1824Ee0F21EbBbF660a179934", color: "#F59E0B", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
-        monad_testnet: { id: 10143, address: "0xD22Ea6e9d5D01BbFca62Be7C1E549838178499C1", color: "#8B5CF6", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
-        sahara_testnet: { id: 313313, address: "0xa5F565650890fBA1824Ee0F21EbBbF660a179934", color: "#FCD34D", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
+        // monad_testnet: { id: 10143, address: "0xD22Ea6e9d5D01BbFca62Be7C1E549838178499C1", color: "#8B5CF6", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
+        // sahara_testnet: { id: 313313, address: "0xa5F565650890fBA1824Ee0F21EbBbF660a179934", color: "#FCD34D", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
 
         // This part is temporary according to layer3 quest
         gmink: { id: 57073, address: "0x9F500d075118272B3564ac6Ef2c70a9067Fd2d3F", color: "#FF2D55", value: "0x0", data: "0xe884624b0000000000000000000000001AC205EfecC2fE31377E273dB93F4Bb145C67A19", gas: "0x927c0" }, //gm on ink to yun
         baserelay: { id: 8453, address: "0xa5F565650890fBA1824Ee0F21EbBbF660a179934", color: "#0052FF", value: "0x0", data: "0x", gas: "0x927c0" }, //bungee
         gdollarfuse: { id: 122, address: "0xd253A5203817225e9768C05E5996d642fb96bA86", color: "#2ECC71", value: "0x0", data: "0x4e71d92d", gas: "0x927c0" }, // claim G dollar fuse
         gdollarcelo: { id: 42220, address: "0x43d72Ff17701B2DA814620735C39C620Ce0ea4A1", color: "#2ECC71", value: "0x0", data: "0x4e71d92d", gas: "0x927c0" }, // claim G dollar celo
+        soneium_ruby: { id: 1868, address: "0x6cf740D3145b71F705A9745A35b9C91f8B4F7DDF", color: "#1D4ED8", value: "0x48c27395000", data: "0x632a9a52", gas: "0x927c0" },
 
         //add personalize here (will be erase on update)
         //customize1 { id: 7777777, address: "0xDC3D8318Fbaec2de49281843f5bba22e78338146", color: "#FF5733", value: "0x0", data: "0x632a9a52", gas: "0x927c0" }, //Example : Vote on rubyscore on zora
