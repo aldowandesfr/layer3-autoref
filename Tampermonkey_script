@@ -16,12 +16,12 @@
     "use strict";
 
     const blockchains = {
-        ape: { id: 33139, address: "0xa06e1351E2fD2D45b5D35633ca7eCF328684a109", color: "#3B82F6", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
+        // ape: { id: 33139, address: "0xa06e1351E2fD2D45b5D35633ca7eCF328684a109", color: "#3B82F6", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         arbitrum: { id: 42161, address: "0xe4A0b241D8345d86FB140D40c87C5fbDd685B9dd", color: "#2D3748", value: "0x0", data: "0x", gas: "0x927c0" }, //izumi
         base: { id: 8453, address: "0x3C54883Ce0d86b3abB26A63744bEb853Ea99a403", color: "#2563EB", value: "0x0", data: "0x", gas: "0x927c0" }, //bungee
         berachain: { id: 80094, address: "0xf909c4Ae16622898b885B89d7F839E0244851c66", color: "#F59E0B", value: "0x0", data: "0x", gas: "0x927c0" }, //li.fi
         bnb: { id: 56, address: "0xeeeeee9eC4769A09a76A83C7bC42b185872860eE", color: "#FACC15", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
-        //bob: { id: 60808, address: "0x00000000aa467eba42a3d604b3d74d63b2b6c6cb", color: "#60A5FA", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
+        // bob: { id: 60808, address: "0x00000000aa467eba42a3d604b3d74d63b2b6c6cb", color: "#60A5FA", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         celo: { id: 42220, address: "0x2Fc617E933a52713247CE25730f6695920B3befe", color: "#FBBF24", value: "0x0", data: "0x", gas: "0x927c0" }, //layerswap
         ink: { id: 57073, address: "0x7F4babd2C7D35221e72Ab67Ea72Cba99573A0089", color: "#EF4444", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         katana: { id: 747474, address: "0x9ff28846CD0640BA4AAc04d3eBBE651cAc5FE609", color: "#FFD700", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
@@ -38,8 +38,8 @@
         sei: { id: 1329, address: "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE", color: "#FF2D55", value: "0x0", data: "0x", gas: "0x927c0" }, //li.fi
         soneium: { id: 1868, address: "0x99067E1C68f3a474f72cedF885f9f1fF7F0AAF5e", color: "#1D4ED8", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         sonic: { id: 146, address: "0x9D05eD9C0258ce034c6788944841Fe5825eDa0c4", color: "#374151", value: "0x0", data: "0x", gas: "0x927c0" }, // bungee
-        superposition: { id: 55244, address: "0xF3334049A3ce7e890bd4f8C6a0FBC70e38fd3746", color: "#14B8A6", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
-        superseed: { id: 5330, address: "0x7F4babd2C7D35221e72Ab67Ea72Cba99573A0089", color: "#16A34A", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
+        // superposition: { id: 55244, address: "0xF3334049A3ce7e890bd4f8C6a0FBC70e38fd3746", color: "#14B8A6", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
+        // superseed: { id: 5330, address: "0x7F4babd2C7D35221e72Ab67Ea72Cba99573A0089", color: "#16A34A", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         unichain: { id: 130, address: "0x198d69c8d8422D182EbbFEC9C35A31E003BcaD9a", color: "#D946EF", value: "0x0", data: "0x", gas: "0x927c0" }, //bungee
         worldchain: { id: 480, address: "0xa06e1351E2fD2D45b5D35633ca7eCF328684a109", color: "#2D3748", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         zora: { id: 7777777, address: "0xa5F565650890fBA1824Ee0F21EbBbF660a179934", color: "#F59E0B", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
