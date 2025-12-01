@@ -19,30 +19,29 @@
         // ape: { id: 33139, address: "0xa06e1351E2fD2D45b5D35633ca7eCF328684a109", color: "#3B82F6", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         arbitrum: { id: 42161, address: "0xe4A0b241D8345d86FB140D40c87C5fbDd685B9dd", color: "#2D3748", value: "0x0", data: "0x", gas: "0x927c0" }, //izumi
         base: { id: 8453, address: "0x3C54883Ce0d86b3abB26A63744bEb853Ea99a403", color: "#2563EB", value: "0x0", data: "0x", gas: "0x927c0" }, //bungee
-        berachain: { id: 80094, address: "0xf909c4Ae16622898b885B89d7F839E0244851c66", color: "#F59E0B", value: "0x0", data: "0x", gas: "0x927c0" }, //li.fi
+        // berachain: { id: 80094, address: "0xf909c4Ae16622898b885B89d7F839E0244851c66", color: "#F59E0B", value: "0x0", data: "0x", gas: "0x927c0" }, //li.fi
         bnb: { id: 56, address: "0xeeeeee9eC4769A09a76A83C7bC42b185872860eE", color: "#FACC15", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         // bob: { id: 60808, address: "0x00000000aa467eba42a3d604b3d74d63b2b6c6cb", color: "#60A5FA", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         celo: { id: 42220, address: "0x2Fc617E933a52713247CE25730f6695920B3befe", color: "#FBBF24", value: "0x0", data: "0x", gas: "0x927c0" }, //layerswap
         ink: { id: 57073, address: "0x7F4babd2C7D35221e72Ab67Ea72Cba99573A0089", color: "#EF4444", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         katana: { id: 747474, address: "0x9ff28846CD0640BA4AAc04d3eBBE651cAc5FE609", color: "#FFD700", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
-        fuse: { id: 122, address: "0x2Fc617E933a52713247CE25730f6695920B3befe", color: "#22C55E", value: "0x0", data: "0x", gas: "0x927c0" }, //layerswap
+        // fuse: { id: 122, address: "0x2Fc617E933a52713247CE25730f6695920B3befe", color: "#22C55E", value: "0x0", data: "0x", gas: "0x927c0" }, //layerswap
         // hyperEVM: { id: 999, address: "0x391E7C679d29bD940d63be94AD22A25d25b5A604", color: "#10B981", value: "0x0", data: "0x", gas: "0x927c0" }, //gas.zip
         linea: { id: 59144, address: "0xe10Add2ad591A7AC3CA46788a06290De017b9fB4", color: "#1F2937", value: "0x0", data: "0x", gas: "0x927c0" }, //rubyscore
         lisk: { id: 1135, address: "0x447B8E40B0CdA8e55F405C86bC635D02d0540aB8", color: "#06B6D4", value: "0x0", data: "0x", gas: "0x927c0" }, //uniswap v3
-        mode: { id: 34443, address: "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae", color: "#EAB308", value: "0x0", data: "0x", gas: "0x927c0" }, //li.fi
+        // mode: { id: 34443, address: "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae", color: "#EAB308", value: "0x0", data: "0x", gas: "0x927c0" }, //li.fi
         optimism: { id: 10, address: "0x78255f1DeE074fb7084Ee124058A058dE0B1C251", color: "#DC2626", value: "0x0", data: "0x", gas: "0x927c0" }, //bungee, li.fi :0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae
-        plasma: { id: 9745, address: "0x026f252016a7c47cdef1f05a3fc9e20c92a49c37", color: "#22C55E", value: "0x0", data: "0x", gas: "0x927c0" }, //sushi
         plume: { id: 98866, address: "0x836CaF2409D91dF0bdA01BC9F3cEC524ba1c571D", color: "#F97316", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
-        polygon: { id: 137, address: "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE", color: "#7C3AED", value: "0x0", data: "0x", gas: "0x927c0" }, //li.fi
+        // polygon: { id: 137, address: "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE", color: "#7C3AED", value: "0x0", data: "0x", gas: "0x927c0" }, //li.fi
         rari: { id: 1380012617, address: "0x00000000AA467EbA42a3d604B3d74d63B2b6C6Cb", color: "#A855F7", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
-        sei: { id: 1329, address: "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE", color: "#FF2D55", value: "0x0", data: "0x", gas: "0x927c0" }, //li.fi
+        // sei: { id: 1329, address: "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE", color: "#FF2D55", value: "0x0", data: "0x", gas: "0x927c0" }, //li.fi
         soneium: { id: 1868, address: "0x99067E1C68f3a474f72cedF885f9f1fF7F0AAF5e", color: "#1D4ED8", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
-        sonic: { id: 146, address: "0x9D05eD9C0258ce034c6788944841Fe5825eDa0c4", color: "#374151", value: "0x0", data: "0x", gas: "0x927c0" }, // bungee
+        // sonic: { id: 146, address: "0x9D05eD9C0258ce034c6788944841Fe5825eDa0c4", color: "#374151", value: "0x0", data: "0x", gas: "0x927c0" }, // bungee
         // superposition: { id: 55244, address: "0xF3334049A3ce7e890bd4f8C6a0FBC70e38fd3746", color: "#14B8A6", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         // superseed: { id: 5330, address: "0x7F4babd2C7D35221e72Ab67Ea72Cba99573A0089", color: "#16A34A", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         unichain: { id: 130, address: "0x198d69c8d8422D182EbbFEC9C35A31E003BcaD9a", color: "#D946EF", value: "0x0", data: "0x", gas: "0x927c0" }, //bungee
-        worldchain: { id: 480, address: "0xa06e1351E2fD2D45b5D35633ca7eCF328684a109", color: "#2D3748", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
-        zora: { id: 7777777, address: "0xa5F565650890fBA1824Ee0F21EbBbF660a179934", color: "#F59E0B", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
+        // worldchain: { id: 480, address: "0xa06e1351E2fD2D45b5D35633ca7eCF328684a109", color: "#2D3748", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
+        // zora: { id: 7777777, address: "0xa5F565650890fBA1824Ee0F21EbBbF660a179934", color: "#F59E0B", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         // monad_testnet: { id: 10143, address: "0xD22Ea6e9d5D01BbFca62Be7C1E549838178499C1", color: "#8B5CF6", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
         // sahara_testnet: { id: 313313, address: "0xa5F565650890fBA1824Ee0F21EbBbF660a179934", color: "#FCD34D", value: "0x0", data: "0x", gas: "0x927c0" }, //relay
 
@@ -52,6 +51,8 @@
         gdollarfuse: { id: 122, address: "0xd253A5203817225e9768C05E5996d642fb96bA86", color: "#2ECC71", value: "0x0", data: "0x4e71d92d", gas: "0x927c0" }, // claim G dollar fuse
         gdollarcelo: { id: 42220, address: "0x43d72Ff17701B2DA814620735C39C620Ce0ea4A1", color: "#2ECC71", value: "0x0", data: "0x4e71d92d", gas: "0x927c0" }, // claim G dollar celo
         soneium_ruby: { id: 1868, address: "0x6cf740D3145b71F705A9745A35b9C91f8B4F7DDF", color: "#1D4ED8", value: "0x48c27395000", data: "0x632a9a52", gas: "0x927c0" },
+
+        plasma: { id: 9745, address: "0x026f252016a7c47cdef1f05a3fc9e20c92a49c37", color: "#22C55E", value: "0x0", data: "0x", gas: "0x927c0" }, //sushi
 
         //add personalize here (will be erase on update)
         //customize1 { id: 7777777, address: "0xDC3D8318Fbaec2de49281843f5bba22e78338146", color: "#FF5733", value: "0x0", data: "0x632a9a52", gas: "0x927c0" }, //Example : Vote on rubyscore on zora
@@ -75,11 +76,11 @@
         // 0.000010000 ETH to cUSDC
         // custrise_cobbler_ethcusdc: { id: 11155931, address: "0x7792669BEb769c4035bdFcA4F3d794d55922B954", color: "#F06061", value: "0x9184e72a000", data: "0xc0e8e89a000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000001a000000000000000000000000000000000000000000000000000000000000001e0000000000000000000000000000000000000000000000000000000006819129b00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000020000000000000000086f8d8da4431282242958712d7c8a895fec0c4722062ffe50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009184e72a00000000000000000000000000000000000000000000000000000000000000026aa00000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000a985e387ddf21b87c1fe8a0025d827674040221e0000000000000000000000000000000000000000000000000000000000000000", gas: "0x927c0" },
         // 0.0001 ETH to WETH
-        custrise_cobbler_ethweth: { id: 11155931, address: "0x4200000000000000000000000000000000000006", color: "#F06061", value: "0x5af3107a4000", data: "0xd0e30db0", gas: "0x927c0" },
-        custrise_gm: { id: 11155931, address: "0x59c27c39A126a9B5eCADdd460C230C857e1Deb35", color: "#F06061", value: "0x1a6016b2d000", data: "0x5011b71c", gas: "0x927c0" },
-        custrise_gm_contract: { id: 11155931, address: "0xA8f5448Ed409CD255543c733610e0FB5FbABa0fb", color: "#F06061", value: "0x1fd512913000", data: "0x775c300c", gas: "0x927c0" },
+        // custrise_cobbler_ethweth: { id: 11155931, address: "0x4200000000000000000000000000000000000006", color: "#F06061", value: "0x5af3107a4000", data: "0xd0e30db0", gas: "0x927c0" },
+        // custrise_gm: { id: 11155931, address: "0x59c27c39A126a9B5eCADdd460C230C857e1Deb35", color: "#F06061", value: "0x1a6016b2d000", data: "0x5011b71c", gas: "0x927c0" },
+        // custrise_gm_contract: { id: 11155931, address: "0xA8f5448Ed409CD255543c733610e0FB5FbABa0fb", color: "#F06061", value: "0x1fd512913000", data: "0x775c300c", gas: "0x927c0" },
         // Monad
-        custmonad_uniswap_wmon_01: { id: 10143, address: "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701", color: "#9B59B6", value: "0x16345785d8a0000", data: "0xd0e30db0", gas: "0x927c0" },
+        // custmonad_uniswap_wmon_01: { id: 10143, address: "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701", color: "#9B59B6", value: "0x16345785d8a0000", data: "0xd0e30db0", gas: "0x927c0" },
         // stake 0.1 MON to glacierfi.com
     };
 
